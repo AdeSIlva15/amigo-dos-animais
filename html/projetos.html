@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos - Amigo dos Animais</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <a class="skip-link" href="#app">Pular para o conteúdo principal</a>
+   
+    <header>
+        <h1>Amigo dos Animais</h1>
+
+<button
+    class="menu-toggle"
+    type="button"
+    aria-label="Abrir menu"
+    aria-expanded="false"
+    aria-controls="menu-principal">
+    ☰
+</button>
+
+<nav id="menu-principal" aria-label="Navegação principal">
+    <a href="#" data-rota="inicio">Início</a>
+
+    <div class="menu-dropdown">
+        <a href="#" data-rota="projetos">Projetos</a>
+
+        <div class="submenu">
+            <a href="projetos.html#resgate">Resgate e Acolhimento</a>
+            <a href="projetos.html#adocao">Adoção Responsável</a>
+            <a href="projetos.html#castracao">Campanha de Castração</a>
+            <a href="projetos.html#alimentos">Arrecadação de Alimentos</a>
+        </div>
+    </div>
+
+    <a href="#" data-rota="cadastro">Cadastro</a>
+</nav>
+    </header>
+
+    <main id="app">
+
+        <section>
+            <h2>Apresentação dos Projetos</h2>
+
+            <p>
+                Conheça as principais iniciativas da Amigo dos Animais
+                voltadas à proteção, ao cuidado e ao bem-estar animal.
+            </p>
+        </section>
+
+        <section>
+    <h2>Projetos Sociais</h2>
+
+    <article id="resgate">
+        <span class="badge badge-verde">Resgate</span>
+        <h3>Resgate e Acolhimento</h3>
+
+        <p>
+            Realizamos o resgate e oferecemos cuidados básicos
+            aos animais que precisam de proteção e acolhimento.
+        </p>
+    </article>
+
+    <article id="adocao">
+        <span class="badge badge-laranja">Adoção</span>
+        <h3>Adoção Responsável</h3>
+
+        <p>
+            Incentivamos a adoção responsável, buscando novos lares
+            para os animais acolhidos.
+        </p>
+    </article>
+
+    <article id="castracao">
+        <span class="badge badge-verde">Cuidado animal</span>
+        <h3>Campanha de Castração</h3>
+
+        <p>
+            Promovemos ações de conscientização sobre a importância
+            da castração para o controle populacional dos animais.
+        </p>
+    </article>
+
+    <article id="alimentos">
+        <span class="badge badge-laranja">Doação</span>
+        <h3>Arrecadação de Alimentos</h3>
+
+        <p>
+            Recebemos doações de alimentos para auxiliar na alimentação
+            dos animais acolhidos.
+        </p>
+    </article>
+</section>
+
+        <section>
+            <h2>Voluntariado</h2>
+
+            <p>
+                Pessoas interessadas podem contribuir como voluntárias,
+                ajudando nas ações de cuidado, proteção e conscientização
+                realizadas pela ONG.
+            </p>
+        </section>
+
+        <section>
+            <h2>Doações</h2>
+
+            <p>
+                As doações ajudam a manter os cuidados com os animais acolhidos
+                e contribuem para a realização das ações da ONG.
+            </p>
+        </section>
+
+        <section>
+            <h2>Informações</h2>
+
+            <div class="alert alert-sucesso">
+                <strong>Projeto ativo:</strong> o projeto de resgate está recebendo novos animais.
+            </div>
+
+            <div class="alert alert-info">
+                <strong>Informação:</strong> interessados em participar podem realizar o cadastro como voluntários.
+            </div>
+
+            <div class="alert alert-aviso">
+                <strong>Atenção:</strong> verifique as orientações antes de realizar uma doação.
+            </div>
+        </section>
+
+        <section>
+            <h2>Feedback</h2>
+
+            <button type="button" id="mostrarToast">
+                Testar mensagem
+            </button>
+        </section>
+
+    </main>
+
+    <div class="toast" id="toast">
+        <strong>Mensagem enviada!</strong>
+        Sua solicitação foi registrada com sucesso.
+    </div>
+
+    <footer>
+        <p>
+            Amigo dos Animais - Proteção e bem-estar animal
+        </p>
+
+        <p>
+            E-mail: contato@amigodosanimais.org
+        </p>
+    </footer>
+
+<script type="module" src="../js/script.js"></script>
+
+</body>
+
+</html>
