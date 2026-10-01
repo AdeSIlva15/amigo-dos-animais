@@ -2,6 +2,8 @@ import { defineConfig } from "vite";
 import { resolve } from "path";
 
 export default defineConfig({
+    base: "/amigo-dos-animais/",
+
     build: {
         rollupOptions: {
             input: {
